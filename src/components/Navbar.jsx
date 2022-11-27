@@ -8,7 +8,7 @@ const Container=styled.div`
 function Navbar() {
   return (
        <Container>
-             <h1>shail </h1>
+             <h1>shahil </h1>
        </Container>
   )
 
