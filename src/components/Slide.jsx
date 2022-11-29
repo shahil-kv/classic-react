@@ -36,6 +36,7 @@ const Button=styled.button`
  color: white;
  border-radius: 10px;
 padding: 10px 20px 10px 20px ;
+border: none;
 `
 const Span=styled.span`
   color: red;
@@ -45,6 +46,7 @@ const ButtonSecond=styled.button`
  color: black;
  border-radius: 10px;
  padding: 10px 20px 10px 20px ;
+ border: none;
 `
 function Slide() {
   return (
