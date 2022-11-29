@@ -1,3 +1,4 @@
+import { Search } from '@mui/icons-material'
 import React from 'react'
 import styled from 'styled-components'
 
@@ -38,9 +39,10 @@ const Button=styled.button`
 `
 const Input=styled.input`
 border-radius: 5px;
- padding-left: 10px;
+ padding-left: 35px;
   width: 250px;
   height: 45px;
+  position: relative;
 `
 const Logo=styled.h1`
 font-weight: 600;
@@ -49,6 +51,7 @@ const Anger=styled.a`
   text-decoration: none;
   color: #000000b3;
 `
+const style={position:'absolute',marginLeft:'5px'};
 function Navbar() {
   return (
        <Container>
@@ -62,7 +65,7 @@ function Navbar() {
        </Second>
        <Third>
        <Input type="text" placeholder='Search' />
-       Search
+       <Search style={style}/>
        <Button >Cart </Button>
        </Third>
        </Container>
