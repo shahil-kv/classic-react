@@ -62,6 +62,7 @@ function Navbar() {
        </Second>
        <Third>
        <Input type="text" placeholder='Search' />
+       Search
        <Button >Cart </Button>
        </Third>
        </Container>
