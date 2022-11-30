@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Container=styled.div`
+const Container=styled.section`
 background-color: yellow;
 height: 92vh; 
  padding : 250px 0px 0px 170px ;
