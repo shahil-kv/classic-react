@@ -35,11 +35,12 @@ const Logo=styled.h3`
      font-weight: 400;
 `
 const Para=styled.p`
-    
+    font-size: 20px;
+    font-weight: 400;
 `
 const Anger=styled.a`
-    color: #0000005f;
-    font-size: 20px;
+    color: #00000098;
+    font-size: 16px;
     font-weight: 400;
 `
 const Input=styled.input`
@@ -53,9 +54,9 @@ const FlexDiv=styled.div`
     justify-content: space-between;
 
 `
-const Btn=styled.button`
-    background-image: url();
-`
+// const Btn=styled.button`
+//     background-image: url();
+// `
 const Logos=styled.h3`
    font-weight: 400;
     margin-bottom: 20px;
@@ -76,7 +77,7 @@ const Footer = () => {
        <FirstDiv>
     <LogoL>CLASSIC</LogoL>
     <Para>Collaboration platform for modern items</Para>
-       <Copy>© Classic 2022 </Copy>
+       <Copy>© Copyright Classic 2022 Inc. </Copy>
        </FirstDiv>
        <SecondDiv>
        <FlexDiv>
@@ -108,7 +109,7 @@ const Footer = () => {
        <Logo>STAY UP TO DATE</Logo>
     <Anger>Subscribe to our news Letter</Anger>
      <Input placeholder='Email'></Input>
-     <Btn></Btn>
+     {/* <Btn></Btn> */}
        </FlexDiv>
        </FifthDiv>
     
