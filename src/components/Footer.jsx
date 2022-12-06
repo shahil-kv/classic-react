@@ -38,7 +38,9 @@ const Para=styled.p`
     font-size: 20px;
     font-weight: 400;
 `
-const Anger=styled.a`
+const Anger=styled.a` 
+    cursor: pointer;
+    text-decoration: none;
     color: #00000098;
     font-size: 16px;
     font-weight: 400;
@@ -99,7 +101,7 @@ const Footer = () => {
        <FourthDiv>
        <FlexDiv>
        <Logo>CONTACT US</Logo>
-    <Anger>shahilkv@gmail.como</Anger>
+    <Anger href='shahilkv.com'>shahilkv@gmail.como</Anger>
     <Anger>+91 9846786928</Anger>
     <Anger>Arakkinar Balan Road</Anger>
        </FlexDiv>
