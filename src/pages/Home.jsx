@@ -3,7 +3,8 @@ import Allcategories from '../components/Allcategories'
 import Categories from '../components/Categories'
 import Navbar from '../components/Navbar'
 import Products from '../components/Products'
-import Reviews from '../components/Reviews'
+import ReviewN from '../components/ReviewN'
+// import Reviews from '../components/Reviews'
 import Slide from '../components/Slide'
 const Home=()=> {
   return (
@@ -13,7 +14,8 @@ const Home=()=> {
     <Categories/>
     <Allcategories/>
     <Products/>
-    <Reviews/>
+    {/* <Reviews/> */}
+    <ReviewN/>
     </div>
   )
 } 
