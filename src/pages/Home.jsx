@@ -1,4 +1,5 @@
 import React from 'react'
+import Allcategories from '../components/Allcategories'
 import Categories from '../components/Categories'
 import Navbar from '../components/Navbar'
 import Products from '../components/Products'
@@ -10,6 +11,7 @@ const Home=()=> {
     <Navbar/>
     <Slide/>
     <Categories/>
+    <Allcategories/>
     <Products/>
     </div>
   )
