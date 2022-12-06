@@ -7,41 +7,51 @@ const Container = styled.section`
  const AllCategory=styled.div`
        display: flex;
        justify-content: center;
-       justify-content: space-between;
+       gap: 40px;
        align-items: center;
        margin: 150px 20% 80px 20%;
-       font-size: 20px;
+       font-size: 15px;
+       font-weight: 200;
  `
-  const Fdiv=styled.div`
-   background-color: red;
-   padding: 5px 15px;
-    width: 190px;
+  const FirstDiv=styled.div`
+   background-color: #ec3b3b;
+   padding: 5px 35px;
+    width: 220px;
     border-radius: 30px;
     color: white;
-    font-weight: 100;
-
  ` 
- const Sdiv=styled.div`
+//  const SecondDiv=styled.div`
+//     background-color: white;
+//     border: 0.5px solid black;
+//    padding: 5px 35px;
+//     width: 210px;
+//     border-radius: 30px;
+//  `
+//   const ThirdDiv=styled.div`
+//     background-color: white;
+//     border: 0.5px solid black;
+//    padding: 5px 35px;
+//     width: 210px;
+//     border-radius: 30px;
+//  `
+//   const FifthDiv=styled.div`
+//     background-color: white;
+//     border: 0.5px solid black;
+//    padding: 5px 35px;
+//     width: 190px;
+//     border-radius: 30px;
+//   `
+  const FourthDiv=styled.div`
     background-color: white;
     border: 0.5px solid black;
-   padding: 5px 15px;
-    width: 210px;
-    border-radius: 30px;
-
- `
-  const Tdiv=styled.div`
-    background-color: white;
-    border: 0.5px solid black;
-   padding: 5px 15px;
-    width: 210px;
-    border-radius: 30px;
- `
-  const Fodiv=styled.div`
-    background-color: white;
-    border: 0.5px solid black;
-   padding: 5px 15px;
+    padding: 5px 15px 5px 25px;
     width: 190px;
     border-radius: 30px;
+     &:hover{
+      background-color: #ec3b3b;
+      transition: 0.2s ease-in-out;
+       color: white;
+     }
  `
  const Txt=styled.h3`
   
@@ -50,20 +60,24 @@ function Allcategories() {
   return (
     <Container>
          <AllCategory>
-           <Fdiv>
+           <FirstDiv>
            <Txt>All Category</Txt>
-           </Fdiv>   
-            <Sdiv>
-            <Txt>Classic Brush</Txt>
-           </Sdiv>    
-           <Tdiv>
+           </FirstDiv>   
+            <FourthDiv>
             <Txt>Classic Paints</Txt>
+           </FourthDiv>    
+           <FourthDiv>
+            <Txt>Classic Brushes </Txt>
             
-           </Tdiv>   
-            <Fodiv>
+           </FourthDiv>   
+            <FourthDiv>
             <Txt>Classic Rust</Txt>
-            
-           </Fodiv>
+      
+           </FourthDiv> 
+           <FourthDiv>
+            <Txt>Classic Rust</Txt>
+      
+           </FourthDiv>
        </AllCategory> 
     </Container>
   )
