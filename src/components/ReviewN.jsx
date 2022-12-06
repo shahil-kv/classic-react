@@ -50,7 +50,7 @@ const Title=styled.h2`
      flex-direction: row;
      justify-content: center;
      margin-top: 130px;
-     margin-bottom: 40px;
+     margin-bottom: 70px;
 `
 const ReviewN = () => {
   return (
