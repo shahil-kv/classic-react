@@ -1,13 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
 
+
 const Container=styled.section`
-background-color: yellow;
+ background-color: #ffff0085;
 height: 92vh; 
  padding : 250px 0px 0px 170px ;
 `
 const TitleDiv=styled.div`
-    /* background-color: black; */
     width: 600px;
 `
 const Title=styled.h1`
@@ -43,10 +43,10 @@ const Span=styled.span`
 `
 const ButtonSecond=styled.button`
    background-color: transparent;
- color: black;
  border-radius: 10px;
- padding: 10px 20px 10px 20px ;
- border: none;
+ padding: 10px 30px 10px 30px ;
+
+ border: 1px solid black ;
 `
 function Slide() {
   return (
