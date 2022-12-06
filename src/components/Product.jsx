@@ -19,9 +19,31 @@ const Info = styled.div`
   transition: all 0.5s ease;
   cursor: pointer;
 `;
-
+const Title=styled.h3`
+ margin-top: 10px;
+ width: 200px;
+`
+const Price=styled.h5`
+width: 200px;
+ margin-bottom: 70px;
+`
+const Scontainer=styled.div`
+ position: relative;
+flex: 1;
+   margin: 0px 50px 0px 0px;
+  min-width: 450px;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:  #f5f7fa;
+  &:hover ${Info}{
+   opacity: 1;
+  }
+  position: relative;
+`
 const Container=styled.div`
-  flex: 1;
+  /* flex: 1;
    margin: 0px 50px 60px 0px;
   min-width: 350px;
   height: 450px;
@@ -32,7 +54,7 @@ const Container=styled.div`
   &:hover ${Info}{
    opacity: 1;
   }
-  position: relative;
+  position: relative; */
 `
 const Image = styled.img`
   height: 75%;
@@ -59,10 +81,19 @@ const Icon = styled.div`
     transform: scale(1.1);
   }
 `;
-
+// const BtnBuy=styled.button`
+//    padding: 5px 15px;
+//    border-radius: 5px;
+//    background-color: #ec3b3b;
+//    color:white;
+//    border: none;
+//    left: 1000px;
+// `
 const Product=({item})=>{
   return (
      <Container>
+      <Scontainer>
+
        <Circle />
        <Image src={item.img} />
        <Info>
@@ -78,6 +109,10 @@ const Product=({item})=>{
            <HeartBroken />
          </Icon>
     </Info>
+      </Scontainer>
+       {/* <BtnBuy>Buy Now</BtnBuy> */}
+       <Title>{item.title}</Title>
+       <Price>{item.price}</Price>
      </Container>
   )
 }
