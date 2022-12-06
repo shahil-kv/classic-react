@@ -75,7 +75,7 @@ const Footer = () => {
   return (
     <Container>
        <FirstDiv>
-    <LogoL>CLASSIC</LogoL>
+    <LogoL>CLASSIC<span style={{color:'#ec3b3b'}}>.</span></LogoL>
     <Para>Collaboration platform for modern items</Para>
        <Copy>© Copyright Classic 2022 Inc. </Copy>
        </FirstDiv>

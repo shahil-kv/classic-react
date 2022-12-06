@@ -61,7 +61,7 @@ function Navbar() {
       <Anger href="shahilkv.com">Contact</Anger>
        </First>
        <Second>
-      <Logo>Classic</Logo>
+      <Logo>CLASSIC<span style={{color:'red'}}>.</span></Logo>
        </Second>
        <Third>
        <Input type="text" placeholder='Search' />
