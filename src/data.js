@@ -31,9 +31,6 @@
       id:2,
       img:"https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
     },
-    
- 
-    
    
     {
       id:3,
@@ -64,3 +61,30 @@
     }
  
   ]
+
+  export const shahil = [
+    {
+      id: 1,
+      para: "Quality is the main thing in classic I love products of classic",
+      img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      cat:"women",
+      name:'shahil',
+      about:'Software Developer'
+    },
+    {
+      id: 2,
+      para: "The service is great ",
+      img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      cat:"coat",
+      name:'leo messi',
+      about:'Professional Footballer'
+    },
+    {
+      id: 3,
+      para: "Loving the UI and the security they provide ",
+      img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      cat:"jeans",
+      name:'hisham kannapi',
+      about:'Kannapi gang leader'
+    },
+  ];

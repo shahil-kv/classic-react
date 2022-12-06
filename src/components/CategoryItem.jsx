@@ -81,6 +81,27 @@ const Container = styled.section`
    cursor: pointer;
    font-weight: 600;
  `
+//  const AllCategory=styled.div`
+   
+//  `
+//   const Fdiv=styled.div`
+  
+//  ` 
+//  const Sdiv=styled.div`
+  
+
+//  `
+//   const Tdiv=styled.div`
+  
+//  `
+//   const Fodiv=styled.div`
+  
+//  `
+//  const Txt=styled.h3`
+  
+//  `
+
+
 const CategoryItem = ({item}) =>{
   return (
     <Container>
@@ -89,26 +110,22 @@ const CategoryItem = ({item}) =>{
         <Title>{item.title}</Title>
         <Button>SHOW NOW</Button>
       </Info>
-      {/* <FirstDiv>
-      <h2>shahil is a killadi</h2>
-      </FirstDiv>
-      <FlexContainer>
-      <SecondDiv>
-      <h2>love you bro</h2>
-
-      </SecondDiv>
-      <SecondFlex>
-
-      <ThirdDiv>
-      <h2>what the heck</h2>
-
-      </ThirdDiv>
-      <FourthDiv>
-      <h2>lwo messii</h2>
-
-      </FourthDiv>
-      </SecondFlex>
-      </FlexContainer> */}
+       {/* <AllCategory>
+           <Fdiv>
+           <Txt>All Category</Txt>
+           </Fdiv>   
+            <Sdiv>
+            <Txt>Classic Brush</Txt>
+           </Sdiv>    
+           <Tdiv>
+            <Txt>Classic Paints</Txt>
+            
+           </Tdiv>   
+            <Fodiv>
+            <Txt>Classic Rust</Txt>
+            
+           </Fodiv>
+       </AllCategory> */}
     </Container>
   );
 }
