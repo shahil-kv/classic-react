@@ -9,7 +9,7 @@ const Container=styled.div`
  display: flex;
  height: auto;
  justify-content: space-between;
- /* background-color: yellow; */
+ background-color: #ffff0080;
  padding:1% 10% 0px 10%;
  align-items: center ;
 `
