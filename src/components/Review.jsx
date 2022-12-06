@@ -52,7 +52,7 @@ const Review = ({item}) => {
     <Container>
    <Scontainer>
    <Fdiv>
-    <img src="s" alt="icons" />
+    <img src="" alt="icons" />
     <Text>{item.para}</Text>
      <Flexdiv>
     <Image src={item.img}/>
