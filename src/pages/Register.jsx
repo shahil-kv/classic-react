@@ -142,7 +142,6 @@ const Register = () => {
 
            </FirstSection>
            <SecondSection>
-
          <Img src='' alt='shuii'></Img>
            </SecondSection>
         </Wrapper>
