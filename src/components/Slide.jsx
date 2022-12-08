@@ -116,9 +116,9 @@ function Slide() {
      <Container>
      <Nav>
       <First>
-        <Anger href="shahilkv.com">Home</Anger>
         <Anger href="shahilkv.com">Categories</Anger>
-        <Anger href="shahilkv.com">Contact</Anger>
+        <Anger href="shahilkv.com">Register</Anger>
+        <Anger href="shahilkv.com">Login</Anger>
       </First>
       <Second>
         <Logo>
