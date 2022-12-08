@@ -3,9 +3,12 @@ import styled from 'styled-components'
 
 
 const Container=styled.section`
- background-color: #ffff0085;
+
+`
+const Wrapper=styled.section`
+   background-color: #ffff0085;
 height: 92vh; 
- padding : 250px 0px 0px 170px ;
+ padding : 250px 0px 0px 200px ;
 `
 const TitleDiv=styled.div`
     width: 600px;
@@ -51,6 +54,8 @@ const ButtonSecond=styled.button`
 function Slide() {
   return (
     <Container>
+    <Wrapper>
+
       <TitleDiv>
         <Title>The Perfect <Span>Tool</Span>  you need</Title>
       </TitleDiv>
@@ -59,6 +64,7 @@ function Slide() {
         <Button>Buy Now</Button>
         <ButtonSecond>About</ButtonSecond>
       </ButtonDiv>
+    </Wrapper>
     </Container>
   )
 }

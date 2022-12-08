@@ -1,6 +1,6 @@
 import React from 'react'
 import Allcategories from '../components/Allcategories'
-import Categories from '../components/Categories'
+import CategoryItem from '../components/CategoryItem'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import Products from '../components/Products'
@@ -12,7 +12,7 @@ const Home=()=> {
     <div>
     <Navbar/>
     <Slide/>
-    <Categories/>
+    <CategoryItem/>
     <Allcategories/>
     <Products/>
     {/* <Reviews/> */}
